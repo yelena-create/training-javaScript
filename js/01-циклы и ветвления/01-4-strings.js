@@ -13,6 +13,7 @@ const fullName = firstName + ' ' + lastName;
 
 console.log(fullName);
 
+
 /*
  * Напиши скрипт который выведет строку в формате:
  * «Гость x y поселяется в z номер q»,
@@ -23,20 +24,13 @@ const room = 716;
 const type = 'VIP';
 
 // const welcomeMsg =
-//   'Гость ' +
-//   firstName +
-//   ' ' +
-//   lastName +
-//   ' поселяется в ' +
-//   type +
-//   ' номер ' +
-//   room;
+//   'Гость ' + firstName + ' ' + lastName + ' поселяется в ' + type + ' номер ' + room;
 
 const welcomeMsg = `Гость ${firstName} ${lastName} поселяется в ${type} номер ${room}`;
 // console.log(welcomeMsg);
 
 /*
- * Шаблонные строки (template strings)
+ * Шаблонные строки (template strings) кнопочка находится на букве ё.
  * Возвращаемся к составлению строки поселения в отель
  */
 
@@ -46,21 +40,22 @@ const orderMsg = `Вы заказываете ${quantity} холодильник
 // console.log(orderMsg);
 
 /*
- * Нормализация с методом toLowerCase()
+ * Нормализация с методом toLowerCase() - приведение к нижнему регистру
+                          toUpperCase() - приведение к верхнему регистру
  */
 
 // let brand = prompt('Давай бренд');
 // brand = brand.toLowerCase();
 
-// console.log(brand);
+// console.log(brand);ы
 
 let brand = 'SamSUnG';
-// console.log(brand[4]);
-// console.log(brand.slice(1).toLowerCase());
+console.log(brand[0]);
+console.log(brand.slice(1).toLowerCase());
 
 brand = brand[0] + brand.slice(1).toLowerCase();
 
-// console.log(brand);
+console.log(brand);
 
 /*
  * Поиск в строке с методом includes()

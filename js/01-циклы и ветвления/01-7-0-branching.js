@@ -24,15 +24,15 @@
 
 const salary = 5000;
 
-// if (salary <= 500) {
-//   console.log('Уровень 1');
-// } else if (salary > 500 && salary <= 1500) {
-//   console.log('Уровень 2');
-// } else if (salary > 1500 && salary < 3000) {
-//   console.log('Уровень 3');
-// } else {
-//   console.log('Уровень 4');
-// }
+if (salary <= 500) {
+  console.log('Уровень 1');
+} else if (salary > 500 && salary <= 1500) {
+  console.log('Уровень 2');
+} else if (salary > 1500 && salary < 3000) {
+  console.log('Уровень 3');
+} else {
+  console.log('Уровень 4');
+}
 
 // console.log('qweqwe');
 
@@ -56,13 +56,13 @@ const salary = 5000;
  * Блочная область видимости переменных
  */
 
-// if (true) {
-//   const a = 5;
-//   console.log(b);
-// }
+if (true) {
+  const a = 5;
+  console.log(b);
+}
 
-// if (true) {
-//   const b = 10;
+if (true) {
+  const b = 10;
 
-//   console.log(a);
-// }
+  console.log(a);
+}
